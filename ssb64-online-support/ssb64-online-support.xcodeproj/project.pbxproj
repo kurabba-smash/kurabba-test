@@ -13,6 +13,9 @@
 		6398D2851F95F38B005EF252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6398D2831F95F38B005EF252 /* Main.storyboard */; };
 		6398D2871F95F38B005EF252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6398D2861F95F38B005EF252 /* Assets.xcassets */; };
 		6398D28A1F95F38C005EF252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6398D2881F95F38C005EF252 /* LaunchScreen.storyboard */; };
+		63BBB2B91F975D7D00FDAB37 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBB2B81F975D7D00FDAB37 /* TabBarController.m */; };
+		63BD02851F973CCE00F0DDAD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD02841F973CCE00F0DDAD /* SecondViewController.m */; };
+		63BD02881F97529C00F0DDAD /* ServerCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD02871F97529C00F0DDAD /* ServerCheckViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6398D2861F95F38B005EF252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6398D2891F95F38C005EF252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6398D28B1F95F38C005EF252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BBB2B71F975D7D00FDAB37 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		63BBB2B81F975D7D00FDAB37 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		63BD02831F973CCE00F0DDAD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		63BD02841F973CCE00F0DDAD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		63BD02861F97529C00F0DDAD /* ServerCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCheckViewController.h; sourceTree = "<group>"; };
+		63BD02871F97529C00F0DDAD /* ServerCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCheckViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +72,14 @@
 				6398D2801F95F38B005EF252 /* ViewController.h */,
 				6398D2811F95F38B005EF252 /* ViewController.m */,
 				6398D2831F95F38B005EF252 /* Main.storyboard */,
+				63BBB2B71F975D7D00FDAB37 /* TabBarController.h */,
+				63BBB2B81F975D7D00FDAB37 /* TabBarController.m */,
+				63BD02861F97529C00F0DDAD /* ServerCheckViewController.h */,
+				63BD02871F97529C00F0DDAD /* ServerCheckViewController.m */,
 				6398D2861F95F38B005EF252 /* Assets.xcassets */,
 				6398D2881F95F38C005EF252 /* LaunchScreen.storyboard */,
+				63BD02831F973CCE00F0DDAD /* SecondViewController.h */,
+				63BD02841F973CCE00F0DDAD /* SecondViewController.m */,
 				6398D28B1F95F38C005EF252 /* Info.plist */,
 				6398D27A1F95F38B005EF252 /* Supporting Files */,
 			);
@@ -150,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BD02851F973CCE00F0DDAD /* SecondViewController.m in Sources */,
 				6398D2821F95F38B005EF252 /* ViewController.m in Sources */,
+				63BD02881F97529C00F0DDAD /* ServerCheckViewController.m in Sources */,
+				63BBB2B91F975D7D00FDAB37 /* TabBarController.m in Sources */,
 				6398D27F1F95F38B005EF252 /* AppDelegate.m in Sources */,
 				6398D27C1F95F38B005EF252 /* main.m in Sources */,
 			);
@@ -307,6 +325,7 @@
 				6398D2901F95F38C005EF252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
