@@ -10,28 +10,11 @@
 
 @interface ServerCheckViewController ()
 
-@property (nonatomic) NSString *msg;
-
 @end
 
 static NSString *SERVER_CHECK_VIEW_NAME = @"ServerCheck";
 
 @implementation ServerCheckViewController
-
-+ (instancetype)instantiateViewControllerWithMessage:(NSString *)msg
-{
-    // ViewControllerのインスタンスを生成
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ServerCheckViewController *vc = [storyboard instantiateViewControllerWithIdentifier:SERVER_CHECK_VIEW_NAME];
-    
-    // 画面遷移アニメーションの設定
-    vc.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    
-    // 遷移元から渡された値を保持
-    vc.msg = msg;
-    
-    return vc;
-}
 
 - (void)viewDidLoad
 {

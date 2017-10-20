@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="-42" y="671"/>
         </scene>
-        <!--3tume-->
+        <!--スマボ-->
         <scene sceneID="56Y-I0-oEd">
             <objects>
-                <viewController id="Erw-LV-EgT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TwitterCheck" id="Erw-LV-EgT" customClass="TwitterCheckViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8xl-Y6-1k9"/>
                         <viewControllerLayoutGuide type="bottom" id="BfB-XT-mID"/>
@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="3tume" id="gXd-P2-uRs"/>
+                    <tabBarItem key="tabBarItem" title="スマボ" id="gXd-P2-uRs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7d-Ax-9l4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,32 +1,25 @@
 //
-//  SecondViewController.m
+//  TwitterCheckViewController.m
 //  ssb64-online-support
 //
-//  Created by Kurabba on 2017/10/18.
+//  Created by Kurabba on 2017/10/20.
 //  Copyright © 2017年 Kurabba. All rights reserved.
 //
 
-#import "SecondViewController.h"
-#import "ServerCheckViewController.h"
+#import "TwitterCheckViewController.h"
 
-@interface SecondViewController ()
-
+@interface TwitterCheckViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation TwitterCheckViewController
 
-
-- (void)viewDidLoad
-{
-    NSLog(@"viewDidLoad %@", NSStringFromClass([self class]));
-
+- (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

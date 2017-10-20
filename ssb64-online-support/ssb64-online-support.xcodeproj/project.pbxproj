@@ -16,6 +16,7 @@
 		63BBB2B91F975D7D00FDAB37 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBB2B81F975D7D00FDAB37 /* TabBarController.m */; };
 		63BD02851F973CCE00F0DDAD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD02841F973CCE00F0DDAD /* SecondViewController.m */; };
 		63BD02881F97529C00F0DDAD /* ServerCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD02871F97529C00F0DDAD /* ServerCheckViewController.m */; };
+		63FAA89D1F99FC5C009F1DB0 /* TwitterCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FAA89C1F99FC5C009F1DB0 /* TwitterCheckViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		63BD02841F973CCE00F0DDAD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		63BD02861F97529C00F0DDAD /* ServerCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCheckViewController.h; sourceTree = "<group>"; };
 		63BD02871F97529C00F0DDAD /* ServerCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCheckViewController.m; sourceTree = "<group>"; };
+		63FAA89B1F99FC5C009F1DB0 /* TwitterCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterCheckViewController.h; sourceTree = "<group>"; };
+		63FAA89C1F99FC5C009F1DB0 /* TwitterCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterCheckViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				6398D2801F95F38B005EF252 /* ViewController.h */,
 				6398D2811F95F38B005EF252 /* ViewController.m */,
 				6398D2831F95F38B005EF252 /* Main.storyboard */,
+				63FAA89B1F99FC5C009F1DB0 /* TwitterCheckViewController.h */,
+				63FAA89C1F99FC5C009F1DB0 /* TwitterCheckViewController.m */,
 				63BBB2B71F975D7D00FDAB37 /* TabBarController.h */,
 				63BBB2B81F975D7D00FDAB37 /* TabBarController.m */,
 				63BD02861F97529C00F0DDAD /* ServerCheckViewController.h */,
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63BD02851F973CCE00F0DDAD /* SecondViewController.m in Sources */,
+				63FAA89D1F99FC5C009F1DB0 /* TwitterCheckViewController.m in Sources */,
 				6398D2821F95F38B005EF252 /* ViewController.m in Sources */,
 				63BD02881F97529C00F0DDAD /* ServerCheckViewController.m in Sources */,
 				63BBB2B91F975D7D00FDAB37 /* TabBarController.m in Sources */,

@@ -10,6 +10,5 @@
 
 @interface ServerCheckViewController : UIViewController
 
-+ (instancetype)instantiateViewControllerWithMessage:(NSString *)msg;
 
 @end
